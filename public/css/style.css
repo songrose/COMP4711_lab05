@@ -1,0 +1,108 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+.searchContainer{
+    display: flex;           /* establish flex container */
+    flex-direction: column;  /* make main axis vertical */
+    align-items: center;     /* center items horizontally, in this case */
+    height: 250px;
+}
+.searchBoxContainer{
+    display:flex;
+    justify-content:space-evenly;
+}
+.searchBox{
+    width: 400px;
+    padding:5px 40px 35px 40px;
+    border-width: solid 2px;
+    border-color: gainsboro ;
+    border-style:solid;
+}
+.searchBox input{
+ width:60%;
+}
+input[type="text"]::placeholder{
+    text-align:center;
+}
+#addButton{
+    width:fit-content;
+    background-color: gainsboro ;
+    padding-left:3px;
+    padding-right:3px;
+
+}
+.desc{
+    padding:10px;
+
+
+}
+.textDesc{
+    float:left;
+    padding:15px;
+    width:204px
+}
+.profileCont{
+    width:450px;
+
+    flex-direction: column;
+    display:flex;
+}
+.singularProf:hover{
+    background-color:gainsboro;
+}
+.singularProf{
+    width:max-parent;
+    height:90px;
+    padding:10px;
+    border-color: gainsboro ;
+    border-style:solid;
+    border-width: thin;
+}
+.singularProf img{
+    width:90px;
+    height:90px;
+    float:left;
+}
+.singularProf h5{
+    margin:0;
+}
+.singularProf p{
+    font-size: 12px;
+}
+#deleteProfContainer{
+    width:80px;
+    height:match-parent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:orange;
+    border-color:blue;
+    float:left;
+    margin-top:30px;
+}
+#deleteProf{
+    background-color:red;
+    color:white;
+
+    border-radius:2px;
+    padding-left:15px;
+    padding-right:15px;
+    float:right;
+}
+
+#artistEntry {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    text-align: center;
+}
+
+#artistEntry > *{
+    margin:1px;
+}
+#buttonAdd{
+    background-color: gainsboro ;
+    font-size:14px;
+    padding:2px;
+}

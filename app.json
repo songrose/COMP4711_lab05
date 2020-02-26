@@ -1,0 +1,9 @@
+{
+    "name":"Start on Heroku: Node.js",
+    "description": "My express project",
+    "repository":"https://github.com/songrose/COMP4711_lab05",
+    "logo": "https://secure.img1-ag.wfcdn.com/im/02238154/compr-r85/8470/84707680/pokemon-pikachu-wall-decal.jpg",
+    "keywords":["node", "express", "heroku"],
+    "image":"heroku/nodejs"
+
+}
